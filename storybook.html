@@ -17,11 +17,15 @@
       h1.dates {font-size: 2vw;text-align: left;}
       h2 {font-size: 1vw;}
       main {width: 100%;}
-      section#context {text-align: left;}
-      section#content {text-align: left; width:67%;}
+      section#context {text-align: left; border-top: double;}
+      section#content {text-align: left; width:67%; border-top: double;}
       .box {float: left;width: 30%;padding: 10px; margin-right: 0;}
       .box:last-child {margin-right: 0;}
-      footer {width: 100%; text-align: center;}
+      footer#empty {text-align: left; border-top: double;}
+      footer#bottom {width: 67%; text-align: left;border-top: double;}
+      .place {float: left;width: 30%;padding: 10px; margin-right: 0;}
+      .place:last-child {margin-right: 0;}
+      #bottom {width: 100%; float: left; padding-top: 20px; padding-bottom: 20px;}
       .holiday {font-style: italic; font-size: 0.8vw; color: #6E6E6E;}
       .presence {font-weight: bold; font-size: 1vw;}
       caption {text-align: left;font-size: 1vw;}
@@ -171,7 +175,10 @@
       </article>
     </section>
   </main>
-  <footer>
+  <footer id="empty" class="place">
+
+  </footer>
+  <footer id="bottom" class="place">
     <address>Dierk König, 5.2B16, <a href="mailto:dierk.koenig@fhnw.ch">dierk.koenig@fhnw.ch</a></address>
     <address>Christian Ribeaud, <a href="mailto:christian.ribeaud@fhnw.ch">christian.ribeaud@fhnw.ch</a></address>
   </footer>
