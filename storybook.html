@@ -17,11 +17,16 @@
       h1.dates {font-size: 2vw;text-align: left;}
       h2 {font-size: 1vw;}
       main {width: 100%;}
-      section#context {text-align: left; background-color: beige;}
-      section#content {text-align: left; background-color: #0FFFF0; width:67%;}
+      section#context {text-align: left;}
+      section#content {text-align: left; width:67%;}
       .box {float: left;width: 30%;padding: 10px; margin-right: 0;}
       .box:last-child {margin-right: 0;}
       footer {width: 100%; text-align: center;}
+      .holiday {font-style: italic; font-size: 0.8vw; color: #6E6E6E;}
+      .presence {font-weight: bold; font-size: 1vw;}
+      caption {text-align: left;font-size: 1vw;}
+      abbr {text-decoration: underline; font-size: 1vw;}
+      dfn[title="Modulschlussprüfung"] {font-size: 1vw;}
     </style>
     <h1 class="title"><dfn title="Drehbuch">Storybook</dfn> for the <span class="webeC">Web Engineering</span> Module</h1>
   </header>
@@ -91,15 +96,15 @@
               <td>09</td>
               <td>Role-based Security</td>
             </tr>
-            <tr>
+            <tr class="presence">
               <td>Mo, 18.11.2019</td>
               <td>10</td>
               <td>&Uuml;bungsvorbereitung ** Anwesenheitspflicht **</td>
             </tr>
-            <tr>
+            <tr class="holiday">
               <td>Mo, 25.11.2019</td>
               <td>--</td>
-              <td>FREI!!!!!</td>
+              <td>Frei auf Grund der Projektwoche</td>
             </tr>
             <tr>
               <td>Mo, 02.12.2019</td>
@@ -111,17 +116,17 @@
               <td>12</td>
               <td>Responsive / Mobile Web</td>
             </tr>
-            <tr>
+            <tr class="presence">
               <td>Mo, 16.12.2019</td>
               <td>13</td>
               <td>Weihnachtsvorlesung, ** &Uuml;bungsabgabe **</td>
             </tr>
-            <tr>
+            <tr class="holiday">
               <td>Mo, 23.12.2019</td>
               <td>--</td>
               <td>Weihnachtsferien</td>
             </tr>
-            <tr>
+            <tr class="holiday">
               <td>Mo, 30.12.2019</td>
               <td>--</td>
               <td>Weihnachtsferien</td>
@@ -167,8 +172,8 @@
     </section>
   </main>
   <footer>
-    <address>Dierk König, 5.2B16, mailto:dierk.koenig@fhnw.ch</address>
-    <address>Christian Ribeaud, mailto:christian.ribeaud@fhnw.ch</address>
+    <address>Dierk König, 5.2B16, <a href="mailto:dierk.koenig@fhnw.ch">dierk.koenig@fhnw.ch</a></address>
+    <address>Christian Ribeaud, <a href="mailto:christian.ribeaud@fhnw.ch">christian.ribeaud@fhnw.ch</a></address>
   </footer>
 </body>
 </html>
